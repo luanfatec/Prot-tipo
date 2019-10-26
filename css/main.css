@@ -161,15 +161,63 @@
     font-size: 19px;
     font-weight: bolder;
   }
-
-  /*==== Init parte 1 section ====*/
-  section #section-part-2 {
-    border: 1px solid red;
-  }
-
-  /* Section mobile 1 */
   section #section-part-1 #banner-mobile-1 .box-banner-mobile {
     display: none;
+  }
+
+  /*==== Init parte 2 section ====*/
+  section #section-part-2 {
+    color: black;
+    margin-top: 50px;
+  }
+
+  section #section-part-2 .box-texto {
+    color: black;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  section #section-part-2 .box-texto h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  section #section-part-2 .box-texto p {
+    font-size: 1em;
+  }
+  section #section-part-2 .box-texto a {
+    color: #012340;
+    font-size: 1.2em;
+  }
+
+  section #section-part-2 .box-img {
+    padding: 10px;
+  }
+  section #section-part-2 .box-img img {
+    width: 100%;
+    height: 100%;
+  }
+  section #section-part-2 #box-2 {
+    display: none;
+  }
+
+   /*==== Init parte 3 section ====*/
+   section #section-part-3 {
+    background-image: url('../img/section/dubai.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: white;
+    margin-top: 40px;
+    height: 370px;
+  }
+
+  section #section-part-3 .box-text {
+    text-align: center;
+    padding-top: 95px;
+  }
+  section #section-part-3 .box-text p {
+    padding: 10px 150px;
   }
 }
 
@@ -177,7 +225,7 @@
   display: none;
 }
 footer {
-  margin-top: 20px;
+  margin-top: 40px;
   height: 50px;
   background: rgb(1, 21, 38);
 }
