@@ -1,12 +1,13 @@
 * {
   font-family: Arial, "Helvetica Neue", sans-serif;
 }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
   /*==== Init Part 1 header ====*/
   header #header-part-1 {
-    background: rgb(1, 21, 38);
+    background-color: rgb(1, 21, 38);
     color: white;
     height: 50px;
   }
@@ -93,6 +94,13 @@
     border-bottom: 1px solid red;
     transition: 1s;
   }
+  header #header-part-2 #bars {
+    display: none;
+  }
+
+  header #header-part-2 #loginIn {
+    display: none;
+  }
 
   /*=========================================== Area Section ========================================================*/
   /*==== Init parte 1 section ====*/
@@ -157,6 +165,11 @@
   /*==== Init parte 1 section ====*/
   section #section-part-2 {
     border: 1px solid red;
+  }
+
+  /* Section mobile 1 */
+  section #section-part-1 #banner-mobile-1 .box-banner-mobile {
+    display: none;
   }
 }
 

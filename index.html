@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/main-mobile.css">
 
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="./assets/libs/owl/dist/assets/owl.carousel.min.css">
+
     <!-- Normalize -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -66,6 +69,16 @@
               </div>
             </div>
 
+            <div id="loginIn" class="col-md-6">
+              <a href="/login" class="">Log in <i class="fa fa-arrow-circle-o-right"></i></a>
+            </div>
+
+            <div id="bars" class="col-md-6">
+              <a href="#">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+
             <div id="menu" class="col-md-8">
               <div>
 
@@ -104,7 +117,7 @@
         <div class="row">
 
 
-          <div class="col-md-7">
+          <div id="banner-1" class="col-md-7">
             <div class="box-img-banner">
               <div>
                 <img class="img-banner" src="./img/banner/buildings.jpg">
@@ -112,7 +125,7 @@
             </div>
           </div>
 
-          <div class="col-md-5">
+          <div id="banner-2" class="col-md-5">
             <div class="container">
 
               <div class="box-propaganda-banner">
@@ -131,6 +144,52 @@
               </div>
 
             </div>
+          </div>
+
+          <div id="banner-mobile-1" class="col-md-12">
+
+            <!-- Open Container OWL Carousel -->
+            <div class="container">
+              <div class="box-banner-mobile">
+
+                <div id="owl-demo" class="owl-carousel owl-theme text-white">
+
+                  <div class="item">
+
+                    <h2>Titulo do elemento</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <button class="btn">Ler mais</button>
+
+                  </div>
+
+                  <div class="item">
+
+                    <h2>Titulo do elemento</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <button class="btn">Ler mais</button>
+
+                  </div>
+
+                  <div class="item">
+
+                    <h2>Titulo do elemento</h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                    <button class="btn">Ler mais</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <!-- Close Container OWL Carousel -->
+
           </div>
 
         </div>
@@ -166,6 +225,8 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
   <script src="js/main.js"></script>
   <script src="js/efeitos.js"></script>
+
+  <script src="./assets/libs/owl/dist/owl.carousel.min.js"></script>
 
   </body>
 </html>

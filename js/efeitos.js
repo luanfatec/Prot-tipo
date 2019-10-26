@@ -18,5 +18,14 @@ $(document).ready(() => {
   }, 2000);
   // Fim efeito do card de propaganda.
 
+  // Início do OWL-Carousel.
+  $('#owl-demo').owlCarousel({
+      items : 1,
+      loop : true,
+      margin : 10,
+      autoplay : true,
+      autoplayTimeout : 2000,
+      dots : false
+  });
 
 });

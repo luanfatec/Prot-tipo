@@ -1,0 +1,117 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /*==== Init Part 1 header ====*/
+  header #header-part-1 {
+    background-color: rgb(1, 21, 38);
+    color: white;
+    height: 27px;
+  }
+  header #header-part-1 .info {
+    display: none;
+  }
+  header #header-part-1 ul {
+    margin-top: 10px;
+  }
+  header #header-part-1 ul li {
+    list-style: none;
+    float: right;
+    right: 10px;
+    padding: 2px;
+    border-radius: 30%;
+  }
+  header #header-part-1 ul li .fa-arrow-circle-o-right {
+    margin-top: 4px;
+    position: absolute;
+    right: -3.8px;
+  }
+  header #header-part-1 ul li a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  header #header-part-1 ul .register {
+    display: none;
+  }
+  header #header-part-1 ul .register:hover {
+    color: #0056b3;
+  }
+  header #header-part-1 ul .loginIn {
+    display: none;
+  }
+  header #header-part-1 ul .loginIn:hover {
+    color: #0056b3;
+  }
+
+  /*==== Init Parte 2 header ====*/
+  header #header-part-2 {
+    background: rgb(1, 35, 64);
+    height: 40px;
+  }
+
+  /*==== Init Logotipo ====*/
+  #header-part-2 #logotipo {
+    display: none;
+  }
+
+  /*==== Init Menu ====*/
+  #header-part-2 #menu {
+    display: none;
+  }
+  #header-part-2 #bars i {
+    color: white;
+    font-size: 1.7em;
+    margin-top: 6px;
+    z-index: 9;
+  }
+
+  #header-part-2 #loginIn {
+    position: absolute;
+    right: -217px;
+    top: 33px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  #header-part-2 #loginIn a {
+    font-size: 1.1em;
+    color: white;
+  }
+
+  /*=========================================== Area Section ========================================================*/
+  /*==== Init parte 1 section ====*/
+  section #section-part-1 #banner-1 {
+    display: none;
+  }
+  section #section-part-1 #banner-2 {
+    display: none;
+  }
+  section #section-part-1 #banner-mobile-1 {
+    background-image: url("../img/banner/dubai.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  section #section-part-1 #banner-mobile-1 .box-banner-mobile {
+    width: 100%;
+    height: 236px;
+    margin: 4px;
+    background-color: rgba(0, 0, 0, .4);
+  }
+  section #section-part-1 #banner-mobile-1 .box-banner-mobile .item {
+    text-align: center;
+    margin-top: 44px;
+  }
+  section #section-part-1 #banner-mobile-1 .box-banner-mobile .item button {
+    background-color: #F29F05;
+  }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
