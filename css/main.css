@@ -223,7 +223,7 @@
     display: none;
   }
 
-  /*==== Init Footer ====*/
+  /*==== Init Footer part 1 ====*/
   footer #footer-part-1 {
     height: 50px;
     background: #0540F2;
@@ -231,6 +231,9 @@
   footer #footer-part-1 .tag-sociais {
     color: white;
     margin: 12px 0;
+  }
+  footer #footer-part-1 #box-mobile {
+    display: none;
   }
   footer #footer-part-1 ul li {
     list-style: none;
@@ -242,9 +245,67 @@
     color: white;
     text-decoration: none;
   }
+
+  /*==== Init Footer part 2 ====*/
   footer #footer-part-2 {
-    height: 100px;
+    height: 100%;
     background: #012340;
+  }
+  footer #footer-part-2 #box-1 h1,
+  footer #footer-part-2 #box-2 h1,
+  footer #footer-part-2 #box-3 h1  {
+    font-size: 1.2em;
+    color: white;
+    padding: 48px 0 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  footer #footer-part-2 #box-1 p {
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+    padding: 40px 20px 20px 20px;
+  }
+  footer #footer-part-2 #box-2 {
+    padding-left: 66px;
+  }
+  footer #footer-part-2 #box-2 ul{
+    padding-top: 30px;
+    padding-bottom: 32px;
+  }
+  footer #footer-part-2 #box-2 ul li{
+    padding: 10px 0;
+  }
+  footer #footer-part-2 #box-2 ul li a {
+    color: white;
+    padding: 0 6px;
+  }
+  footer #footer-part-2 #box-2 ul li a i {
+    position: absolute;
+    left: 86px;
+    margin-top: 5px;
+  }
+  footer #footer-part-2 #box-3 #newsletter {
+    padding-left: 20px;
+  }
+  footer #footer-part-2 #box-3 #newsletter p {
+    padding-top: 38px;
+    padding-bottom: 10px;
+    font-weight: 600;
+  }
+  footer #footer-part-2 #box-3 #newsletter .form-group {
+    padding: 0 0 14px 0;
+  }
+  footer #footer-part-2 #box-3 #newsletter button {
+    width: 100%;
+    background-color: #0540F2;
+    color: white;
+  }
+
+  /*==== Init Footer part 3 ====*/
+  footer #footer-part-3 {
+    height: 100px;
+    background: #011526;
   }
 
 }

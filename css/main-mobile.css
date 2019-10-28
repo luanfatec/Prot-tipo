@@ -173,6 +173,32 @@
     margin-top: 10px;
   }
 
+  /*==== Init Footer part 1 ====*/
+  footer #footer-part-1 {
+    height: 36px;
+    background: #0540F2;
+  }
+  footer #box-1, footer #box-2 {
+    display: none;
+  }
+
+  footer #footer-part-1 ul li {
+    list-style: none;
+    float: left;
+    padding: 6px 12px;
+    font-size: 1.2em;
+  }
+  footer #footer-part-1 ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /*==== Init Footer part 1 ====*/
+  footer #footer-part-2 {
+    height: 100px;
+    background: #012340;
+  }
+
 
 }
 

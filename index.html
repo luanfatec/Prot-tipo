@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
     <!-- Font Awesome CSS -->
-    <link href="./assets/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="./assets/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" type="text/css" />
 
     <!-- Bootstrap CSS -->
@@ -42,7 +42,7 @@
                 <ul>
 
                   <li class="loginIn">
-                    <a href="" class="">Log in <i class="fa fa-arrow-circle-o-right"></i></a>
+                    <a href="" class="">Log in <i class="far fa-arrow-alt-circle-right"></i></a>
                   </li>
 
                   <li class="register">
@@ -64,14 +64,14 @@
             <div id="logotipo" class="col-md-4 text-white">
               <div class="navbar-brand">
                 <a href="#">
-                  <i class="fa fa-calendar"></i>
+                  <i class="far fa-calendar-alt"></i>
                   Logotipo
                 </a>
               </div>
             </div>
 
             <div id="loginIn" class="col-md-6">
-              <a href="" class="">Log in <i class="fa fa-arrow-circle-o-right"></i></a>
+              <a href="" class="">Log in <i class="far fa-arrow-alt-circle-right"></i></a>
             </div>
 
             <div id="bars" class="col-md-6">
@@ -278,7 +278,7 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-md-7">
+            <div id="box-1" class="col-md-7">
 
               <div class="tag-sociais">
                 <span>Conecte-se em nossas nas redes sociais</span>
@@ -286,7 +286,19 @@
 
             </div>
 
-            <div class="col-md-5">
+            <div id="box-2" class="col-md-5">
+
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+
+            </div>
+
+            <div id="box-mobile" class="col-md-12">
 
               <ul>
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -308,16 +320,59 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-md-4">teste</div>
+            <div id="box-1" class="col-md-4">
+              <h1>Nome da empresa</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, distinctio. Sunt ullam voluptates in, aspernatur voluptate esse amet? Reprehenderit, excepturi!</p>
+            </div>
 
-            <div class="col-md-4">teste</div>
+            <div id="box-2" class="col-md-4">
+              <div>
+                <h1>Links uteis</h1>
+                <ul>
+                  <li><a href="#"><i class="fas fa-link"></i> Minha conta</a></li>
+                  <li><a href="#"><i class="fas fa-link"></i> Loja</a></li>
+                  <li><a href="#"><i class="fas fa-link"></i> Serviços</a></li>
+                  <li><a href="#"><i class="fas fa-link"></i> Oportunidades</a></li>
+                  <li><a href="#"><i class="fas fa-link"></i> Marketing</a></li>
+                </ul>
+              </div>
+            </div>
 
-            <div class="col-md-4">teste</div>
+            <div id="box-3" class="col-md-4 text-white">
+              <h1>Newsletter</h1>
+
+              <div id="newsletter">
+                <p>Receba noticias todo dia</p>
+                <form action="/processa" method="post">
+                  <div class="form-group">
+                      <input class="form-control" type="text" id="nome" placeholder="Nome e sobrenome" />
+                  </div>
+                  <div class="form-group">
+                      <input class="form-control" type="email" id="email" placeholder="exemplo@email.com" />
+                  </div>
+                  <div class="form-group">
+                      <button type="submit" class="btn">Enviar</button>
+                  </div>
+                </form>
+              </div>
+            </div>
 
           </div>
         </div>
       </div>
       <!-- Close footer part 2 -->
+
+      <!-- Open footer part 3 -->
+      <div id="footer-part-3">
+        <div class="container">
+          <div class="row text-white">
+
+            © teste
+
+          </div>
+        </div>
+      </div>
+      <!-- Close footer part 3 -->
 
     </footer>
     <!-- Close Footer -->
