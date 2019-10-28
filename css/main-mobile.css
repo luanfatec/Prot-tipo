@@ -90,6 +90,7 @@
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
+    width: 95.8%;
   }
   section #section-part-1 #banner-mobile-1 .box-banner-mobile {
     width: 100%;
@@ -136,6 +137,41 @@
   }
 
   /*==== Init parte 3 section ====*/
+  section #fixa-mobile {
+    background-color: rgb(1, 21, 38);
+    height: 40px;
+  }
+  section #fixa-mobile h1 {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  }
+  section #section-part-3 {
+    opacity: 0.9;
+    display: block;
+    background-color: #000;
+    background-image: url("../img/section/dubai-cidade-rodovia.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 220px;
+  }
+  section #section-part-3 .box-text {
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+  }
+  section #section-part-3 .box-text h1 {
+    display: none;
+  }
+  section #section-part-3 .box-text em {
+    font-size: 1.1em;
+  }
+  section #section-part-3 .box-text p {
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
 
 
 }
