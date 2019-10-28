@@ -193,13 +193,80 @@
     text-decoration: none;
   }
 
-  /*==== Init Footer part 1 ====*/
+  /*==== Init Footer part 2 ====*/
   footer #footer-part-2 {
-    height: 100px;
+    height: 100%;
     background: #012340;
   }
+  footer #footer-part-2 #box-1 {
+    display: none;
+  }
+  footer #footer-part-2 #box-2 {
+    text-align: left;
+    display: inline;
+  }
+  footer #footer-part-2 #box-2 h1 {
+    font-size: 1.2em;
+    color: white;
+    padding: 28px 0 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  footer #footer-part-2 #box-2 ul {
+    padding-left: 56px;
+  }
+  footer #footer-part-2 #box-2 ul li {
+    list-style: none;
+  }
+  footer #footer-part-2 #box-2 ul li a {
+    color: white;
+  }
+  footer #footer-part-2 #box-2 ul li a i {
+    position: absolute;
+    left: 50px;
+    margin-top: 5px;
+  }
 
-
+  footer #footer-part-2 #box-3 {
+    margin-top: 20px;
+  }
+  footer #footer-part-2 #box-3 h1 {
+    font-size: 2em;
+    color: white;
+    padding: 14px 0 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  footer #footer-part-2 #box-3 #newsletter {
+    padding: 20px;
+  }
+  footer #footer-part-2 #box-3 #newsletter p {
+    text-align: center;
+    font-weight: 600;
+    padding: 0 0 8px 0;
+  }
+  footer #footer-part-2 #box-3 #newsletter .form-group {
+    padding: 0 0 14px 0;
+  }
+  footer #footer-part-2 #box-3 #newsletter button {
+    width: 100%;
+    background-color: #0540F2;
+    color: white;
+  }
+  footer #footer-part-2 #box-3 hr {
+    background-color: #F20505;
+    width: 200px;
+  }
+  /*==== Init Footer part 3 ====*/
+  footer #footer-part-3 {
+    height: 100%;
+    background: #011526;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */

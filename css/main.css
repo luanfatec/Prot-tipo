@@ -301,11 +301,16 @@
     background-color: #0540F2;
     color: white;
   }
+  footer #footer-part-2 #box-3 hr {
+    display: none;
+  }
 
   /*==== Init Footer part 3 ====*/
   footer #footer-part-3 {
     height: 100px;
     background: #011526;
+    text-align: center;
+    padding-top: 26px;
   }
 
 }
