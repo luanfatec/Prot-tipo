@@ -28,4 +28,20 @@ $(document).ready(() => {
       dots : false
   });
 
+  // Inicio menu
+  $("#bars a").on("click", () => {
+
+    $("#menu-mobile").addClass("menu-open");
+
+  });
+
+  $("#bars-open a").on("click", () => {
+
+    let teste = $("#menu-mobile");
+    if(teste[0].className == "menu-open") {
+      $("#menu-mobile").removeClass("menu-open");
+      console.log(teste[0].className)
+    }
+
+  });
 });

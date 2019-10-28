@@ -49,6 +49,43 @@
     height: 40px;
   }
 
+  header #header-part-2 #menu-mobile.menu-open {
+    background: #012340;
+    position: fixed;
+    top: -1px;
+    height: 100%;
+    width: 89%;
+    z-index: 20;
+  }
+  header #header-part-2 #menu-mobile.menu-open #bars-open i {
+    color: white;
+    font-size: 1.8em;
+    margin-top: 6px;
+    z-index: 20;
+  }
+  header #header-part-2 #menu-mobile.menu-open ul{
+    border-top: 1px solid #F20505;
+    padding-top: 10px;
+  }
+  header #header-part-2 #menu-mobile.menu-open ul li {
+    padding: 20px;
+    width: 84%;
+    text-align: center;
+    list-style: none;
+  }
+  header #header-part-2 #menu-mobile.menu-open ul li a {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 6px;
+  }
+  header #header-part-2 #menu-mobile.menu-open .separator {
+    height: 28px;
+    background-color: #011526;
+    width: 100%;
+    margin-left: -20px;
+  }
+
+
   /*==== Init Logotipo ====*/
   #header-part-2 #logotipo {
     display: none;
@@ -62,7 +99,7 @@
     color: white;
     font-size: 1.7em;
     margin-top: 6px;
-    z-index: 9;
+    z-index: 20;
   }
 
   #header-part-2 #loginIn {
@@ -267,6 +304,7 @@
     padding-bottom: 20px;
     font-size: 0.9em;
   }
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
