@@ -46,26 +46,37 @@
   /*==== Init Parte 2 header ====*/
   header #header-part-2 {
     background: rgb(1, 35, 64);
-    height: 40px;
+    height: 50px;
   }
-
   header #header-part-2 #menu-mobile.menu-open {
     background: #012340;
     position: fixed;
     top: -1px;
     height: 100%;
-    width: 89%;
+    width: 100%;
     z-index: 20;
+    transition: 1s
+  }
+  header #header-part-2 #menu-mobile.close {
+    top: -712px;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #012340;
+    z-index: 20;
+    transition: 0.5s;
   }
   header #header-part-2 #menu-mobile.menu-open #bars-open i {
     color: white;
-    font-size: 1.8em;
+    font-size: 2.4em;
     margin-top: 6px;
     z-index: 20;
+    padding: 2px;
   }
   header #header-part-2 #menu-mobile.menu-open ul{
     border-top: 1px solid #F20505;
-    padding-top: 10px;
+    padding-top: 18px;
+    margin-left: -16px;
   }
   header #header-part-2 #menu-mobile.menu-open ul li {
     padding: 20px;
@@ -83,12 +94,24 @@
     background-color: #011526;
     width: 100%;
     margin-left: -20px;
+    margin-top: 24px;
   }
 
 
   /*==== Init Logotipo ====*/
   #header-part-2 #logotipo {
     display: none;
+  }
+  header #header-part-2 #menu-mobile.menu-open ul #logotipo-menu {
+    color: white;
+    margin-left: 68px;
+  }
+  header #header-part-2 #menu-mobile.menu-open ul #logotipo-menu i {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+  header #header-part-2 #menu-mobile.menu-open ul #logotipo-menu span {
+    font-size: 1.6em;
   }
 
   /*==== Init Menu ====*/
@@ -97,8 +120,8 @@
   }
   #header-part-2 #bars i {
     color: white;
-    font-size: 1.7em;
-    margin-top: 6px;
+    font-size: 2.1em;
+    margin-top: 7px;
     z-index: 20;
   }
 
@@ -218,7 +241,9 @@
   footer #box-1, footer #box-2 {
     display: none;
   }
-
+  footer #footer-part-1 ul {
+    margin-left: 12px;
+  }
   footer #footer-part-1 ul li {
     list-style: none;
     float: left;

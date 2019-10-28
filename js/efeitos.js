@@ -27,21 +27,27 @@ $(document).ready(() => {
       autoplayTimeout : 2000,
       dots : false
   });
+  // Fim do OWL-Carousel.
 
-  // Inicio menu
+  // Inicio menu mobile
   $("#bars a").on("click", () => {
 
-    $("#menu-mobile").addClass("menu-open");
+    let e = $('#menu-mobile');
+    $("#menu-mobile").removeClass('close');
+    $("#menu-mobile").addClass("menu-open").addClass('col-md-6');
 
   });
 
   $("#bars-open a").on("click", () => {
 
-    let teste = $("#menu-mobile");
-    if(teste[0].className == "menu-open") {
-      $("#menu-mobile").removeClass("menu-open");
-      console.log(teste[0].className)
+    let e = $("#menu-mobile");
+    if(e[0].className == "menu-open col-md-6")
+    {
+      $("#menu-mobile").removeClass(e[0].className);
+      $("#menu-mobile").addClass('close');
     }
 
   });
+  // Fim menu mobile
+
 });
