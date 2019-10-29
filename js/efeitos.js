@@ -24,7 +24,7 @@ $(document).ready(() => {
       loop : true,
       margin : 10,
       autoplay : true,
-      autoplayTimeout : 2000,
+      autoplayTimeout : 3000,
       dots : false
   });
   // Fim do OWL-Carousel.
