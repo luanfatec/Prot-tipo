@@ -1,5 +1,5 @@
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (min-width: 320px) and (max-width: 575.98px) {
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 575.98px) and (max-width: 1024.98px) {
   /*==== Init Part 1 header ====*/
   header #header-part-1 {
     background-color: rgb(1, 21, 38);
@@ -150,7 +150,6 @@
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
-    width: 96.7%;
   }
   section #section-part-1 #banner-mobile-1 .box-banner-mobile {
     width: 100%;
@@ -329,14 +328,4 @@
     padding-bottom: 20px;
     font-size: 0.9em;
   }
-
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {  }
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+ }
